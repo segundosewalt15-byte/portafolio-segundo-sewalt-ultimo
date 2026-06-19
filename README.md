@@ -65,7 +65,7 @@ El sitio incluye distintas secciones donde presento:
 1. Clonar este repositorio:
 
 ```bash
-git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+git clone https://github.com/segundosewalt15-byte/portafolio-segundo-sewalt-ultimo.git
 ```
 
 2. Abrir la carpeta del proyecto.
