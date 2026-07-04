@@ -2,7 +2,7 @@
 
 Bienvenido a mi portafolio personal.
 
-Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front End con React** en Coderhouse. Su objetivo es poner en práctica los conocimientos adquiridos en HTML5, CSS3, Box Model y Flexbox mediante la creación de un sitio web moderno, organizado y responsive.
+Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front End con React** en Coderhouse. Su objetivo es poner en práctica los conocimientos adquiridos en **HTML5, CSS3, Flexbox, CSS Grid y diseño responsive**, creando un sitio web moderno, organizado y adaptable a distintos dispositivos.
 
 ---
 
@@ -11,13 +11,15 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 - HTML5
 - CSS3
 - Flexbox
+- CSS Grid
+- Media Queries (Mobile First)
 - Google Fonts (Inter)
 
 ---
 
 ## 📂 Estructura del proyecto
 
-```
+```text
 /
 ├── index.html
 ├── styles/
@@ -27,8 +29,7 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 │   ├── proyectos.html
 │   ├── servicios.html
 │   ├── contacto.html
-│   ├── redes.html
-│   └── pagina-fotos.html
+│   └── redes.html
 └── assets/
 ```
 
@@ -36,27 +37,27 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 
 ## ✨ Características
 
-- Diseño limpio y moderno.
+- Diseño moderno y responsive.
 - Navegación entre páginas.
-- Layout desarrollado con Flexbox.
-- Uso correcto del Box Model.
+- Layout desarrollado con Flexbox y CSS Grid.
+- Implementación de Media Queries con enfoque Mobile First.
 - Tipografía personalizada mediante Google Fonts.
-- Diseño responsive para distintos dispositivos.
 - Código organizado utilizando HTML semántico.
+- Diseño adaptable para dispositivos móviles, tablets y escritorio.
 
 ---
 
-## 📸 Contenido
+## 📄 Contenido
 
-El sitio incluye distintas secciones donde presento:
+El sitio incluye las siguientes secciones:
 
-- Información personal.
-- Habilidades y tecnologías.
-- Servicios.
-- Proyectos realizados.
-- Galería de fotografías.
-- Redes sociales.
-- Información de contacto.
+- Inicio
+- Sobre mí
+- Habilidades y tecnologías
+- Servicios
+- Proyectos
+- Contacto
+- Redes sociales
 
 ---
 
@@ -72,13 +73,13 @@ git clone https://github.com/segundosewalt15-byte/portafolio-segundo-sewalt-ulti
 
 3. Ejecutar el archivo **index.html** en cualquier navegador web.
 
-También puede utilizarse la extensión **Live Server** de Visual Studio Code para una mejor experiencia de desarrollo.
+También podés utilizar la extensión **Live Server** de Visual Studio Code para una mejor experiencia de desarrollo.
 
 ---
 
 ## 📚 Objetivo
 
-Este proyecto forma parte de mi aprendizaje como desarrollador Front End y continuará evolucionando a medida que incorpore nuevas tecnologías como JavaScript, React y otras herramientas del ecosistema web.
+Este proyecto forma parte de mi aprendizaje como desarrollador Front End. A medida que continúe mi formación, incorporaré nuevas tecnologías como **JavaScript**, **React** y otras herramientas del ecosistema web para seguir ampliando este portafolio.
 
 ---
 
@@ -95,4 +96,4 @@ https://github.com/segundosewalt15-byte
 
 ## 📄 Licencia
 
-Este proyecto fue desarrollado con fines educativos como parte del curso de Desarrollo Front End.
+Este proyecto fue desarrollado con fines educativos como parte del curso **Desarrollo Front End con React** de Coderhouse.
