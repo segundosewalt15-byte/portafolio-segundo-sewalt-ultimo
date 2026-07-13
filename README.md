@@ -2,7 +2,7 @@
 
 Bienvenido a mi portafolio personal.
 
-Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front End con React** en Coderhouse. Su objetivo es poner en práctica los conocimientos adquiridos en **HTML5, CSS3, Flexbox, CSS Grid y diseño responsive**, creando un sitio web moderno, organizado y adaptable a distintos dispositivos.
+Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front End con React** en Coderhouse. Su objetivo es poner en práctica los conocimientos adquiridos en **HTML5, CSS3, Flexbox, CSS Grid, Bootstrap y diseño responsive**, construyendo un portfolio moderno, organizado y adaptable a distintos dispositivos.
 
 ---
 
@@ -12,6 +12,7 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 - CSS3
 - Flexbox
 - CSS Grid
+- Bootstrap 5
 - Media Queries (Mobile First)
 - Google Fonts (Inter)
 
@@ -38,12 +39,14 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 ## ✨ Características
 
 - Diseño moderno y responsive.
-- Navegación entre páginas.
+- Navegación responsiva mediante Navbar de Bootstrap.
+- Carousel de Bootstrap para la galería.
 - Layout desarrollado con Flexbox y CSS Grid.
 - Implementación de Media Queries con enfoque Mobile First.
 - Tipografía personalizada mediante Google Fonts.
 - Código organizado utilizando HTML semántico.
 - Diseño adaptable para dispositivos móviles, tablets y escritorio.
+- Estilos personalizados para mantener la identidad visual del sitio.
 
 ---
 
@@ -79,7 +82,7 @@ También podés utilizar la extensión **Live Server** de Visual Studio Code par
 
 ## 📚 Objetivo
 
-Este proyecto forma parte de mi aprendizaje como desarrollador Front End. A medida que continúe mi formación, incorporaré nuevas tecnologías como **JavaScript**, **React** y otras herramientas del ecosistema web para seguir ampliando este portafolio.
+Este proyecto forma parte de mi aprendizaje como desarrollador Front End. Continuaré ampliándolo incorporando nuevas tecnologías como **JavaScript**, **React** y otras herramientas del ecosistema web, con el objetivo de seguir mejorando mis habilidades y construir un portfolio cada vez más profesional.
 
 ---
 
@@ -90,7 +93,7 @@ Este proyecto forma parte de mi aprendizaje como desarrollador Front End. A medi
 Estudiante de Desarrollo Front End con React.
 
 GitHub:
-https://github.com/segundosewalt15-byte
+**https://github.com/segundosewalt15-byte**
 
 ---
 
