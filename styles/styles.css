@@ -76,7 +76,7 @@ header {
    MENÚ
 =========================== */
 
-nav ul {
+.site-header nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,7 +84,7 @@ nav ul {
     list-style: none;
 }
 
-nav a {
+.site-header nav a {
     text-decoration: none;
     color: white;
     background-color: var(--titulo);
@@ -93,7 +93,7 @@ nav a {
     transition: .3s;
 }
 
-nav a:hover {
+.site-header nav a:hover {
     background-color: var(--hover);
     transform: translateY(-2px);
 }
@@ -122,6 +122,7 @@ nav a:hover {
     gap: 20px;
 }
 
+.hero h1,
 .hero h2 {
     color: var(--titulo);
 }
@@ -253,6 +254,7 @@ footer {
 
     grid-template-areas:
         "hero"
+        "galeria"
         "sobre"
         "habilidades";
 
@@ -261,6 +263,10 @@ footer {
 
 .hero-grid {
     grid-area: hero;
+}
+
+.galeria-grid {
+    grid-area: galeria;
 }
 
 .sobre-grid {
@@ -312,7 +318,7 @@ footer {
         font-size: 2.5rem;
     }
 
-    nav ul {
+    .site-header nav ul {
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -331,6 +337,7 @@ footer {
 
         grid-template-areas:
             "hero hero"
+            "galeria galeria"
             "sobre habilidades";
 
     }
@@ -346,4 +353,79 @@ footer {
 
     }
 
+}
+
+    /* ===========================
+   BOOTSTRAP
+=========================== */
+
+.navbar {
+    background-color: var(--fondo) !important;
+    border-bottom: 2px solid var(--borde);
+}
+
+.navbar-brand {
+    color: var(--titulo) !important;
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: var(--hover) !important;
+}
+
+.nav-link {
+    color: var(--texto) !important;
+    background: transparent !important;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: var(--titulo) !important;
+    background: rgba(255, 45, 85, 0.15) !important;
+}
+
+.navbar-toggler {
+    border-color: var(--titulo);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.carousel {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.carousel img {
+    border-radius: 10px;
+    border: 2px solid var(--borde);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.card {
+    background-color: var(--contenedor);
+    border: 2px solid var(--borde);
+    color: var(--texto);
+    padding: 25px;
+}
+
+.card-title {
+    color: var(--titulo);
+}
+
+.btn-primary {
+    background-color: var(--titulo);
+    border-color: var(--titulo);
+}
+
+.btn-primary:hover {
+    background-color: var(--hover);
+    border-color: var(--hover);
 }
