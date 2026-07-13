@@ -47,6 +47,7 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 - Tipografía personalizada mediante Google Fonts.
 - Código organizado utilizando HTML semántico.
 - Diseño adaptable para dispositivos móviles, tablets y escritorio.
+- Estilos personalizados para mantener la identidad visual del sitio.
 
 ---
 
