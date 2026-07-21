@@ -50,26 +50,30 @@ h3 {
 }
 
 /* ===========================
-   HERO
+   HERO Y SECCIONES
 =========================== */
 
-.hero {
+.hero,
+.seccion {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
     width: 90%;
     max-width: 1000px;
 
     margin: 30px auto;
-    padding: 60px 25px;
 
     background-color: var(--contenedor);
     border: 2px solid var(--borde);
     border-radius: 10px;
+}
 
+.hero {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 60px 25px;
     gap: 20px;
 }
 
@@ -81,24 +85,9 @@ h3 {
     max-width: 700px;
 }
 
-/* ===========================
-   SECCIONES
-=========================== */
-
 .seccion {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    width: 90%;
-    max-width: 1000px;
-
-    margin: 30px auto;
     padding: 25px;
-
-    background-color: var(--contenedor);
-    border: 2px solid var(--borde);
-    border-radius: 10px;
+    gap: 20px;
 }
 
 .seccion h1,
@@ -285,35 +274,35 @@ footer {
 
 }
 
-    /* ===========================
+/* ===========================
    BOOTSTRAP
 =========================== */
 
 .navbar {
-    background-color: var(--fondo) !important;
+    background-color: var(--fondo);
     border-bottom: 2px solid var(--borde);
 }
 
 .navbar-brand {
-    color: var(--titulo) !important;
+    color: var(--titulo);
     font-weight: 700;
 }
 
 .navbar-brand:hover {
-    color: var(--hover) !important;
+    color: var(--hover);
 }
 
 .nav-link {
-    color: var(--texto) !important;
-    background: transparent !important;
+    color: var(--texto);
+    background: transparent;
     padding: 8px 12px;
     border-radius: 6px;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .nav-link:hover {
-    color: var(--titulo) !important;
-    background: rgba(255, 45, 85, 0.15) !important;
+    color: var(--titulo);
+    background: rgba(255, 45, 85, 0.15);
 }
 
 .navbar-nav .nav-item {
