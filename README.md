@@ -6,6 +6,14 @@ Este proyecto fue desarrollado como parte de mi formación en **Desarrollo Front
 
 ---
 
+## 🌐 Sitio desplegado
+
+Podés visitar el portafolio en:
+
+<https://segundosewalt15-byte.github.io/portafolio-segundo-sewalt-ultimo/>
+
+---
+
 ## 🚀 Tecnologías utilizadas
 
 - HTML5
@@ -83,7 +91,7 @@ También podés utilizar la extensión **Live Server** de Visual Studio Code.
 
 ## 📚 Objetivo
 
-Este proyecto forma parte de mi proceso de aprendizaje como desarrollador Front End. A medida que avance en mi formación continuaré incorporando nuevas tecnologías como JavaScript, React y otras herramientas del ecosistema web para seguir ampliando este portfolio.
+Este proyecto forma parte de mi proceso de aprendizaje como desarrollador Front End. A medida que avance en mi formación continuaré incorporando nuevas tecnologías como JavaScript, React y otras herramientas del ecosistema web para seguir ampliando este portafolio.
 
 ---
 
