@@ -93,9 +93,7 @@ Este proyecto forma parte de mi proceso de aprendizaje como desarrollador Front 
 
 Estudiante de Desarrollo Front End con React.
 
-GitHub:
-
-https://github.com/segundosewalt15-byte
+GitHub: <https://github.com/segundosewalt15-byte>
 
 ---
 
