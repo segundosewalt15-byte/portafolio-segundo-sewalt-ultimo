@@ -1,0 +1,86 @@
+@use "../utilities/variables" as *;
+
+/* ===========================
+   RESET
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body {
+    font-family: $fuente-principal;
+    background-color: $fondo;
+    color: $texto;
+    line-height: 1.6;
+}
+
+/* ===========================
+   TEXTO
+=========================== */
+
+p {
+    font-size: 20px;
+    color: $texto-secundario;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-position: inside;
+    color: $texto-secundario;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===========================
+   IMÁGENES
+=========================== */
+
+.fotoperfil {
+    width: $ancho-foto;
+    max-width: 100%;
+    border-radius: $radio;
+    border: $grosor-borde;
+}
+
+.fotos {
+    width: 100%;
+    max-width: $ancho-imagen;
+    border-radius: $radio;
+    border: $grosor-borde;
+}
+
+/* ===========================
+   FIGURE
+=========================== */
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: $texto-secundario;
+    font-style: italic;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a {
+    color: $titulo;
+    text-decoration: none;
+
+    &:hover {
+        color: $texto;
+    }
+}

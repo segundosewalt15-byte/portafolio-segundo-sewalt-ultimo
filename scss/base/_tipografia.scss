@@ -1,0 +1,15 @@
+@use "../utilities/variables" as *;
+
+/* ===========================
+   TÍTULOS
+=========================== */
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    color: $texto;
+    margin-bottom: 10px;
+}

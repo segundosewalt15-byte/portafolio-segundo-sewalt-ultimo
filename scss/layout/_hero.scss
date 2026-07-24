@@ -1,0 +1,122 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+/* ===========================
+   HERO Y SECCIONES
+=========================== */
+
+.hero,
+.seccion {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: $ancho-maximo;
+    margin: $margin-seccion;
+    background-color: $contenedor;
+    border: $grosor-borde;
+    border-radius: $radio;
+}
+
+.hero {
+    @include flex-center;
+    flex-direction: column;
+    text-align: center;
+    padding: $padding-hero;
+    gap: $gap-secundario;
+
+    h1 {
+        color: $titulo;
+    }
+
+    p {
+        max-width: $ancho-imagen;
+    }
+}
+
+.seccion {
+    padding: $padding-seccion;
+    gap: $gap-secundario;
+
+    h1,
+    h2 {
+        color: $titulo;
+    }
+}
+
+/* ===========================
+   GRID - INDEX
+=========================== */
+
+.grid-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "hero"
+        "galeria"
+        "sobre"
+        "habilidades";
+    gap: $gap-principal;
+
+    .hero-grid {
+        grid-area: hero;
+    }
+
+    .galeria-grid {
+        grid-area: galeria;
+    }
+
+    .sobre-grid {
+        grid-area: sobre;
+    }
+
+    .habilidades-grid {
+        grid-area: habilidades;
+    }
+}
+
+/* ===========================
+   GRID - SOBRE MÍ
+=========================== */
+
+.sobre-mi-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "foto"
+        "texto";
+    gap: $gap-principal;
+
+    .foto {
+        grid-area: foto;
+        justify-self: center;
+    }
+
+    .texto {
+        grid-area: texto;
+    }
+}
+
+/* ===========================
+   DESKTOP
+=========================== */
+
+@media (min-width: 1024px) {
+
+    .grid-index {
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas:
+            "hero hero"
+            "galeria galeria"
+            "sobre habilidades";
+    }
+
+    .sobre-mi-grid {
+        grid-template-columns: 1fr 2fr;
+
+        grid-template-areas:
+            "foto texto";
+
+        align-items: center;
+    }
+}

@@ -1,0 +1,30 @@
+@use "../utilities/variables" as *;
+
+/* ===========================
+   CAROUSEL
+=========================== */
+
+.carousel {
+    max-width: $ancho-carousel;
+    margin: $margin-seccion;
+
+    img {
+        border-radius: $radio;
+        border: $grosor-borde;
+    }
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.sobre-mi-grid {
+
+    .card {
+        background-color: $contenedor;
+        border: $grosor-borde;
+        color: $texto;
+        padding: $padding-seccion;
+    }
+
+}

@@ -1,0 +1,51 @@
+@use "../utilities/variables" as *;
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar {
+    background-color: $fondo;
+    border-bottom: $grosor-borde;
+
+    .container {
+        @media (min-width: 768px) {
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+    }
+}
+
+.navbar-brand {
+    color: $titulo;
+    font-weight: 700;
+
+    &:hover {
+        color: $hover;
+    }
+}
+
+.nav-link {
+    color: $texto;
+    background: transparent;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: $transicion;
+
+    &:hover {
+        color: $titulo;
+        background: rgba(255, 45, 85, 0.15);
+    }
+}
+
+.navbar-nav .nav-item {
+    margin-bottom: 0;
+}
+
+.navbar-toggler {
+    border-color: $titulo;
+
+    &:focus {
+        box-shadow: none;
+    }
+}

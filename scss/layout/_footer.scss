@@ -1,0 +1,13 @@
+@use "../utilities/variables" as *;
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: $padding-seccion;
+    background-color: #0d0d0d;
+    color: $texto-secundario;
+}
